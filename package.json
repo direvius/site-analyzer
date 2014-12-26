@@ -1,0 +1,49 @@
+{
+  "name": "site-analyzer",
+  "version": "0.0.0",
+  "main": "lib/site-analyzer.js",
+  "description": "The best module ever.",
+
+      "homepage": "https://github.com/direvius/site-analyzer",
+
+    "bugs": "https://github.com/direvius/site-analyzer/issues",
+  "author": {
+    "name": "Alexey Lavrenuke",
+    "email": "direvius@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/direvius/site-analyzer"
+  },
+  "license": "MIT",
+  "files": [
+    "lib",
+    "cli.js"
+  ],
+  "keywords": [
+    "site-analyzer"  ,
+        ""
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "grunt-mocha-cli": "^1.9.0",
+    "jshint-stylish": "^0.2.0"
+  },
+  "dependencies": {
+    "crawler": "^0.4.1",
+    "underscore": "*",
+    "underscore.string": "*",
+    "mime-types": "*"
+  },
+  "scripts": {
+    "test": "grunt"
+  }  ,
+      "bin": {
+        "site-analyzer": "cli.js"
+    },
+    "preferGlobal": "true"
+}
